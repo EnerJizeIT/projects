@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="text">Измени цвет Текста!</string>
+    <string name="btn1">Press the button to show alert dialog</string>
+</resources>

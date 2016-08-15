@@ -1,0 +1,55 @@
+<LinearLayout xmlns:andoroid="http://schemas.android.com/apk/res/android"
+    andoroid:layout_width="match_parent"
+    andoroid:layout_height="match_parent"
+    andoroid:orientation="vertical">
+
+    <TextView
+        andoroid:id="@+id/crime_title_label"
+        style="?android:listSeparatorTextViewStyle"
+        andoroid:layout_width="match_parent"
+        andoroid:layout_height="wrap_content" />
+
+    <EditText
+        andoroid:id="@+id/crime_title"
+        andoroid:layout_width="match_parent"
+        andoroid:layout_height="wrap_content"
+        andoroid:layout_marginLeft="16dp"
+        andoroid:layout_marginRight="16dp"
+        andoroid:hint="@string/crime_title_hint" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        andoroid:layout_width="match_parent"
+        andoroid:layout_height="wrap_content"
+        andoroid:text="@string/crime_details_label" />
+    <LinearLayout
+        andoroid:layout_width="match_parent"
+        andoroid:layout_height="wrap_content"
+        andoroid:orientation="horizontal">
+
+    <Button
+        andoroid:id="@+id/crime_date"
+        andoroid:layout_width="0dp"
+        andoroid:layout_height="wrap_content"
+        andoroid:layout_weight="3"
+        andoroid:layout_marginLeft="16dp"
+        andoroid:layout_marginRight="16dp" />
+
+    <CheckBox
+        andoroid:id="@+id/crime_solved"
+        andoroid:layout_width="0dp"
+        andoroid:layout_height="wrap_content"
+        andoroid:layout_weight="1"
+        andoroid:layout_marginLeft="16dp"
+        andoroid:layout_marginRight="16dp"
+        andoroid:text="@string/crime_solved_label" />
+    </LinearLayout>
+
+    <Button
+        andoroid:text="@string/choose_suspect"
+        andoroid:layout_width="wrap_content"
+        andoroid:layout_height="wrap_content"
+        andoroid:id="@+id/choose_suspect"
+        andoroid:layout_gravity="center_horizontal"
+        style="?android:buttonBarButtonStyle"/>
+</LinearLayout>

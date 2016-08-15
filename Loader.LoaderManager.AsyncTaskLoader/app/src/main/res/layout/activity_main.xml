@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.enerjizeit.loaderloadermanagerasynctaskloader.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:onClick="getTimeFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/radioShort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/format_short" />
+
+        <RadioButton
+            android:id="@+id/radioLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/format_long" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGetTime"
+        android:onClick="getTimeClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogroup"
+        android:text="@string/get_time" />
+
+    <Button
+        android:id="@+id/btnObserver"
+        android:onClick="observerClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGetTime"
+        android:text="@string/observer" />
+</RelativeLayout>

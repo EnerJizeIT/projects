@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Preferences</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_exit">Do you want to exit from application?</string>
+    <string name="msg_error">Error read SD card</string>
+    <string name="title_open">Open document</string>
+    <string name="title_save">Save document</string>
+    <string name="menu_new">New</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pr_openmode">OpenMode</string>
+    <string name="pr_color">Color</string>
+    <string name="pr_color_black">ColorBlack</string>
+    <string name="pr_color_red">ColorRed</string>
+    <string name="pr_color_green">ColorGreen</string>
+    <string name="pr_color_blue">ColorBlue</string>
+    <string name="pr_size">Size</string>
+    <string name="pr_style">Style</string>
+    <string name="pr_style_regular">StyleRegular</string>
+    <string name="pr_style_bold">StyleBold</string>
+    <string name="pr_style_italic">StyleItalic</string>
+    <string name="pr_tone">Tone</string>
+</resources>

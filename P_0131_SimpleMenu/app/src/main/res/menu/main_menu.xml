@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuitem0"
+          android:title="Open"
+          android:icon="@android:drawable/ic_menu_agenda"
+          android:orderInCategory="0"
+          app:showAsAction="always" />
+    <item android:id="@+id/menuitem1"
+          android:title="Edit"
+          android:icon="@android:drawable/ic_menu_call"
+          android:orderInCategory="5"
+          app:showAsAction="always" />
+    <item android:id="@+id/menuitem2"
+          android:title="Save"
+          android:icon="@android:drawable/ic_input_add"
+          android:orderInCategory="10"
+          app:showAsAction="always" />
+    <item android:id="@+id/menuitem3"
+          android:title="Help"
+          android:icon="@android:drawable/ic_secure"
+          android:orderInCategory="15"
+          app:showAsAction="always" />
+    <item android:id="@+id/ic_menu_exit"
+          android:title="Exit"
+          android:icon="@android:drawable/ic_lock_idle_lock"
+          android:orderInCategory="20"
+          app:showAsAction="always" />
+</menu>

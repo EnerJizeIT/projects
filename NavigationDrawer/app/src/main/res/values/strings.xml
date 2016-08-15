@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="Drawer_open">Open Navigation Drawer</string>
+    <string name="Drawer_Close">Close Navigation Drawer</string>
+    <string name="action_settings">Sitting</string>
+    <string name="next">Next</string>
+
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Plutone</item>
+    </string-array>
+
+    <string-array name="stars">
+        <item>Sun</item>
+        <item>Sirius A</item>
+        <item>Sirius B</item>
+        <item>Alfa Centauri</item>
+        <item>Proxima</item>
+        <item>AldaBaran</item>
+        <item>University D</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AsyncTask Download Images App</string>
+
+    <array name="urls">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+        <item>Image 7</item>
+        <item>Image 8</item>
+        <item>Image 9</item>
+    </array>
+
+    <array name="imageUrls">
+        <item>http://cs619526.vk.me/v619526365/1b8d/EiWKTv1-Rpo.jpg</item>
+        <item>http://cs11277.vk.me/u31571660/-14/x_7bd606d6.jpg</item>
+        <item>http://cs309530.vk.me/v309530104/54cc/iwOucu1g9Hw.jpg</item>
+        <item>http://cs624228.vk.me/v624228605/2ca00/HjVBkpCRJic.jpg</item>
+        <item>http://cs309931.vk.me/v309931425/bf80/_J6flec-NOs.jpg</item>
+        <item>http://cs621917.vk.me/v621917651/213cf/i2mI3oeSsOA.jpg</item>
+        <item>http://jaba-point.ru/gg/1/sokrovischa_troley_3000x2260.jpg</item>
+        <item>http://dreempics.com/img/picture/Apr/14/1a240854be8d452ce4c5a086a451c715/5.jpg</item>
+        <item>http://img0.joyreactor.cc/pics/post/full/%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-art-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-862058.jpeg</item>
+    </array>
+
+</resources>

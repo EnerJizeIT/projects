@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/tabhost"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+    <TabWidget android:id="@+id/tabs"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="65dp">
+        <EditText android:id="@+id/tabPage1"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="Enter text for page 1"/>
+        <EditText android:id="@+id/tabPage2"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="Enter text for page 2"/>
+        <EditText android:id="@+id/tabPage3"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:hint="Enter text for page 3"/>
+    </FrameLayout>
+</TabHost>

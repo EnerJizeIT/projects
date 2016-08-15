@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WordPad</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_exit">Do you want to exit from application?</string>
+    <string name="msg_error">Error read SD card</string>
+    <string name="title_open">Open document</string>
+    <string name="title_save">Save document</string>
+    <string name="menu_new">New</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_exit">Exit</string>
+</resources>

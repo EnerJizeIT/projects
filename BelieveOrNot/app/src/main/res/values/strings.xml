@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BelieveOrNot</string>
+
+    <string name="true_button">Верю</string>
+    <string name="false_button">Неверю</string>
+    <string name="correct_toast">Правильно</string>
+    <string name="incorrect_toast">Неправильно</string>
+    <string name="next_button">Next</string>
+
+    <string name="warning_text">Ты серьёзно??</string>
+    <string name="show_answer_button">Показать ответ</string>
+    <string name="cheat_button">Жульничать</string>
+    <string name="judgment_toast">Жуликом быть плохо =(</string>
+
+    <string name="ques1">В Японии ученики на доске пишут кисточкой с цветными чернилами?</string>
+    <string name="ques2">В Австралии практикуется применение одноразовых школьных досок?</string>
+    <string name="ques3">Авторучка была изобретена еще в Древнем Египте? </string>
+    <string name="ques4">Шариковая ручка сначала применялась только военными летчиками? </string>
+    <string name="ques5">В Африке выпускаются витаминизированные карандаши для детей, имеющих обыкновение грызть что попало? </string>
+    <string name="ques6">В некоторые виды цветных карандашей добавляется экстракт моркови для большей прочности грифеля? </string>
+    <string name="ques7">Римляне носили штаны?</string>
+    <string name="ques8">Если пчела ужалит кого-либо, то она погибнет? </string>
+    <string name="ques9">Правда ли что, пауки питаются собственной паутиной? </string>
+    <string name="ques10">В одном корейском цирке двух крокодилов научили танцевать вальс. </string>
+    <string name="ques11">На зиму пингвины улетают на север?</string>
+    <string name="ques12">Если камбалу положить на шахматную доску, она тоже станет клетчатой. </string>
+    <string name="ques13">Спартанские воины перед битвой опрыскивали волосы духами.</string>
+    <string name="ques14">Мыши подрастая становятся крысами? </string>
+    <string name="ques15">Некоторые лягушки умеют летать? </string>
+    <string name="ques16">Дети могут слышать более высокие звуки, чем взрослые?</string>
+    <string name="ques17">Утром вы выше ростом, чем вечером?</string>
+    <string name="ques18">В некоторых местах люди по-прежнему моются с помощью оливкового масла?</string>
+    <string name="ques19">В некоторых местах люди по-прежнему моются с помощью оливкового масла? </string>
+    <string name="ques20">Летучие мыши могут принимать радиосигналы? </string>
+    <string name="ques21">Совы не могут вращать глазами?</string>
+    <string name="ques22">Лось является разновидностью оленя?</string>
+    <string name="ques23">Жирафы по ночам отыскивают с помощью эха листья, которыми питаются?</string>
+    <string name="ques24">Дельфины — это маленькие киты?</string>
+    <string name="ques25">Рог носорога обладает магической силой?</string>
+    <string name="ques26">В некоторых странах жуков-светляков используют в качестве осветительных приборов?</string>
+    <string name="ques27">Мартышка обычно бывает размером с котенка?</string>
+    <string name="ques28">Счастливая монета Скруджа была достоинством в 10 центов?</string>
+    <string name="ques29">Дуремар занимался продажей лягушек?</string>
+    <string name="ques30">Мойву эскимосы сушат и едят вместо хлеба? </string>
+    <string name="ques31">Радугу можно увидеть и в полночь?</string>
+    <string name="ques32">Больше всего репы выращивают в России?</string>
+    <string name="ques33">Слон, встречаясь с незнакомым сородичем, здоровается следующим образом — кладет ему хобот в рот? </string>
+    <string name="ques34">Настоящее имя Ганса Христиана Андерсена было Свенсен?</string>
+    <string name="ques35">В медицине диагноз «синдром Мюнхгаузена» ставится пациенту, который много врет?</string>
+    <string name="ques36">Рост Конька — Горбунка составляет два вершка?</string>
+    <string name="ques37">Первое место среди причин гибели от несчастных случаев в Японии в 1995г. заняли туфли на высоком каблуке?</string>
+    <string name="title_activity_cheat">Cheating</string>
+
+</resources>

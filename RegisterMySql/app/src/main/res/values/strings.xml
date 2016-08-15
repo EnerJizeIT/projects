@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RegisterMySql</string>
+    <string name="login">Login</string>
+    <string name="registerBtn">Registration</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="enter_your_login">Enter your login</string>
+    <string name="login_form">Login Form</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="enter_your_name">Enter your name</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DynamicFragment</string>
+    <string name="AddBtn">Добавить</string>
+    <string name="textView1">ПЕРВЫЙ ФРАГМЕНТ</string>
+    <string name="textView2">ВТОРОЙ ФРАГМЕНТ</string>
+    <string name="btnRemove">Удалить</string>
+</resources>

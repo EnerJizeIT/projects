@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomDataAdapter</string>
+    <string name="image">Image</string>
+    <string name="text">Please select contact</string>
+</resources>

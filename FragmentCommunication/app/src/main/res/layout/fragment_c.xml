@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc00ff"
+    tools:context="com.example.enerjizeit.fragmentcommunication.FragmentC">
+
+    <TextView
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="35sp"
+        android:id="@+id/textC"
+        android:text="@string/hello_blank_fragment" />
+
+</RelativeLayout>

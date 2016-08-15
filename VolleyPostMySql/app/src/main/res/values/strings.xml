@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VolleyPostMySql</string>
+    <string name="registration_form">Regisration Form</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="registerBtn">Registration</string>
+    <string name="login_form">Login Form</string>
+    <string name="enter_your_login">Enter Your Login</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+</resources>

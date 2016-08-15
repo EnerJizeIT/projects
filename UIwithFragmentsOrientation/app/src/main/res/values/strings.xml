@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">UI with Fragments Orientation</string>
+
+    <string-array name="list">
+        <item>Getting Started</item>
+        <item>Building Your First App</item>
+        <item>Set Up Your Environment</item>
+        <item>Supporting Different Devices</item>
+        <item>Lessons</item>
+        <item>Best Practices for Permissions and Identifiers</item>
+        <item>Permissions and User Data</item>
+        <item>Introduction</item>
+    </string-array>
+
+    <string-array name="details">
+        <item>Getting Started</item>
+        <item>Building Your First App</item>
+        <item>Set Up Your Environment</item>
+        <item>Supporting Different Devices</item>
+        <item>Lessons</item>
+        <item>Best Practices for Permissions and Identifiers</item>
+        <item>Permissions and User Data</item>
+        <item>Introduction</item>
+    </string-array>
+</resources>

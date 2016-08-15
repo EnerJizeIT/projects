@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P_0111_ResValues</string>
+    <string name="tvTopText">Верхний текст</string>
+    <string name="btnTopText">Верхняя кнопка</string>
+    <string name="tvBottomText">Нижнийтекст</string>
+    <string name="btnBottomText">Нижняякнопка</string>
+    <color name="llTopColor">#336699</color>
+    <color name="llBottomColor">#339966</color>
+</resources>

@@ -1,0 +1,30 @@
+#Internal package file, do not edit.
+#Thu Aug 11 17:21:30 MSK 2016
+2.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+5.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\blocker_hit.wav
+5.set=ANDROID_RESOURCE
+3.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+2.set=DEX
+4.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+7.set=ANDROID_RESOURCE
+count=9
+0.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_game.xml
+5.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+4.set=ANDROID_RESOURCE
+6.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\target_hit.wav
+1.set=ANDROID_RESOURCE
+7.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+6.set=ANDROID_RESOURCE
+0.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\cannon_fire.wav
+3.set=ANDROID_RESOURCE
+1.base=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=D\:\\Android\\workspaceandroid\\CannonGame\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

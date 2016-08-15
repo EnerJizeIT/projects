@@ -1,0 +1,115 @@
+public class MainActivity extends Activity implements View.OnClickListener,
+	    AdapterView.OnItemClickListener,
+	    AdapterView.OnItemLongClickListener {
+	private ArrayList<ContactItem> list;
+	private CustomAdapter adapter;
+	private ListView listView;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+
+        listView = (ListView)findViewById(R.id.listView);
+
+        list = ContactDbManager.getInstance(this).getContacts();
+        adapter = new CustomAdapter(this, list);
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(this);
+        listView.setOnItemLongClickListener(this);
+    }
+
+	@Override
+	public void onClick(View v) {
+		openAddDialog();
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> arg0,
+			View arg1, int position, long arg3) {
+    	ContactItem item = adapter.getItem(position);
+    	ContactItem.selectedItem = item;
+        Intent intent = new Intent();
+        intent.setClass(this, DetailsActivity.class);
+        startActivity(intent);
+	}
+
+	@Override
+	public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int pos,
+			long arg3) {
+		ContactItem item = adapter.getItem(pos);
+		openDeleteDialog(item);
+		return false;
+	}
+
+	private void openAddDialog() {
+		LayoutInflater dlgInflater = (LayoutInflater)getSystemService(
+				Context.LAYOUT_INFLATER_SERVICE);
+        View root = dlgInflater.inflate(R.layout.edit, null);
+
+        final EditText name = (EditText)root.findViewById(R.id.detailsName);
+        final EditText phone = (EditText)root.findViewById(R.id.detailsPhone);
+        final EditText about = (EditText)root.findViewById(R.id.detailsAbout);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(root);
+        builder.setMessage("Add contact");
+
+        builder.setPositiveButton("Save",
+        		new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+            	ContactItem item = new ContactItem();
+            	item.setName(name.getText().toString());
+                item.setPhone(phone.getText().toString());
+                item.setAbout(about.getText().toString());
+
+                ContactDbManager.getInstance(
+            			getApplicationContext()).addContact(item);
+            	refreshList();
+            }
+        });
+
+        builder.setNegativeButton("Cancel",
+        		new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
+        builder.setCancelable(false);
+        builder.create();
+        builder.show();
+	}
+
+	private void openDeleteDialog(final ContactItem item) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(
+        		String.format("Delete contact %s?", item.getName()));
+        builder.setPositiveButton("Delete",
+        		new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+            	ContactDbManager.getInstance(
+            			getApplicationContext()).deleteContact(item.getID());
+            	refreshList();
+            }
+        });
+
+        builder.setNegativeButton("Cancel",
+        		new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+
+        builder.setCancelable(false);
+        builder.create();
+        builder.show();
+	}
+
+	private void refreshList() {
+        list = ContactDbManager.getInstance(this).getContacts();
+        adapter = new CustomAdapter(this, list);
+        listView.setAdapter(adapter);
+	}
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Multithreading Download</string>
+    <array name="urls">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+    </array>
+
+    <array name="imageUrls">
+        <item>http://cs619526.vk.me/v619526365/1b8d/EiWKTv1-Rpo.jpg</item>
+        <item>http://cs11277.vk.me/u31571660/-14/x_7bd606d6.jpg</item>
+        <item>http://cs309530.vk.me/v309530104/54cc/iwOucu1g9Hw.jpg</item>
+        <item>http://cs624228.vk.me/v624228605/2ca00/HjVBkpCRJic.jpg</item>
+        <item>http://cs309931.vk.me/v309931425/bf80/_J6flec-NOs.jpg</item>
+        <item>http://cs621917.vk.me/v621917651/213cf/i2mI3oeSsOA.jpg</item>
+    </array>
+</resources>

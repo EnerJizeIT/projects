@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GridlayoutPr</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+    <string name="to_hint">Enter email address</string>
+    <string name="to">To</string>
+    <string name="textview">Thanks for choosing our awesome blend tea. How do you want it serving?</string>
+    <string name="text">Temperature: </string>
+    <string name="Toggle1"> Hot </string>
+    <string name="Toggle2"> Cold </string>
+    <string name="milk">Milk</string>
+    <string name="sugar">Sugar</string>
+    <string name="lemon">Lemon</string>
+
+</resources>

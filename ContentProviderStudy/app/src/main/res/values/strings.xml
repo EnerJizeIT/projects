@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContentProvider Study</string>
+    <string name="add_contact">add</string>
+</resources>
